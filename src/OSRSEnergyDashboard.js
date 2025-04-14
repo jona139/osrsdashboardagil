@@ -103,6 +103,18 @@ const OSRSEnergyDashboard = () => {
     <div className="flex flex-col w-full bg-gray-100 p-6 rounded-lg shadow">
       <h1 className="text-3xl font-bold text-center mb-6">OSRS Run Energy Dashboard</h1>
       
+      {/* YouTube Series Link - Added Here */}
+      <div className="bg-yellow-100 p-3 rounded-md shadow mb-6 text-center">
+        <a 
+          href="https://www.youtube.com/watch?v=slWKBb1DXsA&t=1s" 
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:text-blue-800 font-medium flex items-center justify-center"
+        >
+          <span>👍 Like the dashboard? Check out my YouTube series! 🎬</span>
+        </a>
+      </div>
+      
       {/* Controls */}
       <div className="bg-white p-4 rounded-md shadow mb-6">
         <h2 className="text-xl font-semibold mb-4">Configure Parameters</h2>
